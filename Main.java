@@ -4,292 +4,126 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println(" ibute first number 1 :");
-//        int num1 = scanner.nextInt();
-//        System.out.println(" inbut secont number 2 :");
-//        int num2 = scanner.nextInt();
-
-//
-//        int collection = num1 + num2;
-//        int Subtraction = num1 - num2;
-//        int m = num1 * num2;
-//        int portion = num1 / num2;
-//        int n = num1 % num2;
-//
-//        System.out.println(num1 + "+" +num2+ "=" + collection);
-//        System.out.println(num1 + "-" +num2+ "=" + Subtraction);
-//        System.out.println(num1 + "*" +num2+ "=" + m);
-//        System.out.println(num1 + "/" +num2+ "=" + portion);
-//        System.out.println(num1 + "%" +num2+ "=" + collection);
-//
-//
-//        Scanner scanner = new Scanner(System.in);
-//
-//        System.out.println(" Enter the number :");
-//        int number = scanner.nextInt();
-//
-//
-//        for (int i = 1; i <=10; i++){
-//            System.out.print(number + "*" + i+"=");
-//            System.out.println((number* i));
-//
-//        }
-//
-//        Scanner scanner = new Scanner(System.in);
-//
-//        int num1;
-//        int num2;
-//        int num3;
-//        int num4;
-//        int num5;
-//
-//
-//        while (true){
-//            System.out.println("number 1");
-//            int num = scanner.nextInt();
-//            System.out.println("number 2 ");
-//            int num2 = scanner.nextInt();
-//            System.out.println("number 3");
-//            int num3 =scanner.nextInt();
-//            System.out.println(" number 4 :");
-//            int num4 = scanner.nextInt();
-//            System.out.println("number 5");
-//            int num5 = scanner.nextInt();
-//
-//
-//
-//
-//
-//        }
-//
-//        }
-//    }
-
-//
-//        Scanner scanner = new Scanner(System.in);
-//
-//        System.out.println(" Input the first number :");
-//        int num1 = scanner.nextInt();
-//
-//        System.out.println("Input the second number :");
-//        int num2 = scanner.nextInt();
-//
-//        System.out.println(" Final output :");
-//        int a = num1 + num2;
-//
-//        if (a == scanner.nextInt()) {
-//            System.out.println("true");
-//        } else {
-//            System.out.println("false");
+        //1
+//        int[] array = {50, -20, 0, 30, 40, 60, 10};
+//            if (array.length >= 2 && array[0] == array[array.length - 1]) {
+//                System.out.println("true");
+//            }else {
+//                System.out.println("false");
 //        }
 //    }
 //}
 
-//        Scanner scanner = new Scanner(System.in);
-//
-//        System.out.println("Input the word :");
-//        String word = scanner.nextLine();
-//
-//        String Reverse = "";
-//
-//        for (int i = word.length() - 1; i >= 0; i--) {
-//            Reverse += word.charAt(i);
-//        }
-//        System.out.println(Reverse);
-//    }
-//}
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println("Enter the number :");
-//        int num1 = scanner.nextInt();
-//
-//        if (num1 % 2 != 0) {
-//            System.out.println(num1);
-//            System.out.println(" The number is odd ");
-//        } else {
-//            System.out.println(num1);
-//            System.out.println(" The number is even :");
-//        }
-//    }
-//}
-
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println(" Enter temperature in Centigrade ");
-//        int tm = scanner.nextInt();
-//        double f = 1.8;
-//        double m = 32;
-//
-//        double fah = (tm * f) + m;
-//        System.out.println(fah);
-//    }
-//}
-
-//        Scanner scanner = new Scanner(System.in);
-//
-//        System.out.println(" Enter a String :");
-//        String str = scanner.next();
-//
-//        System.out.println(" Enter a number :");
-//        int num = scanner.nextInt();
-//
-//        if (num >= 0 && num < str.length()) {
-//            System.out.println( num + str.charAt(num));
-//        } else {
-//            System.out.println("t");
-//        }
-//        scanner.close();
-//    }
-//}
-
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println(" Enter  the Width : ");
-//        double width = scanner.nextDouble();
-//
-//        System.out.println(" Enter the Height :");
-//        double height = scanner.nextDouble();
-//
-//        double area = width * height;
-//        double perimeter = 2 * (width + height);
-//
-//        System.out.println(" Area is  " + width + " * " + height +" = "+ area);
-//        System.out.println(" perimeter is 2* " + width + " + " + height + " = " + perimeter);
-//
-//
-//    }
-//}
-
-//        Scanner scanner = new Scanner(System.in);
-
-//        System.out.println(" Enter first number :");
-//        int num1 = scanner.nextInt();
-//
-//        System.out.println(" Enter second number ");
-//        int num2 = scanner.nextInt();
-//
-//        if (num1 == num2) {
-//            System.out.println(" t ");
-//        } else if (num1 < num2) {
-//            System.out.println("t");
-//        } else if (num1 <= num2) {
-//            System.out.println("t");
-//        } else {
-//            System.out.println("F");
-//        }
-//    }
-//}
-//
-//        Scanner scanner = new Scanner(System.in);
-//
-//        System.out.println(" Enter a sacent :");
-//        int s = scanner.nextInt();
-//
-//        int min = s / 60;
-//        int hour = min / 60;
-//
-//        System.out.println(hour + " : " + min + " : " + s);
-//    }
-//}
-
-//        Scanner scanner = new Scanner(System.in);
-//
-//        System.out.println(" first number : ");
-//        int num1 = scanner.nextInt();
-//
-//        System.out.println(" second number : ");
-//        int num2 = scanner.nextInt();
-//
-//        System.out.println(" third number :");
-//        int num3 = scanner.nextInt();
-//
-//        System.out.println(" fouurh number : ");
-//        int num4 = scanner.nextInt();
-//
-//        if (num1 == num2 && num2 == num3 && num3 == num4) {
-//            System.out.println(" true ");
-//        } else {
-//            System.out.println(" Numbers are not equal! ");
-//        }
-//    }
-//}
-
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println(" enter the number : ");
-//        int num = scanner.nextInt();
-//
-//        if (num == 0) {
-//            System.out.println(" the number is 0 ");
-//        } else if (num < 0) {
-//            System.out.println(num + "  number is -");
-//        } else {
-//            System.out.println(num + " Number is positive ");
-//        }
-//    }
-//}
-
+        //2
         Scanner scanner = new Scanner(System.in);
-        int m;
-        int b;
-        int a;
+        System.out.println(" how many numbers of array   :");
+        int number1 = scanner.nextInt();
 
-        System.out.println(" enter a number :");
-        int num = scanner.nextInt();
-
-
-            if (num == 0) {
-                int m = scanner.nextInt();
-                System.out.println(m);
+        int [] num1 = new int[number1];
+        double average = 0;
 
 
-            } else if (num < 0) {
-                System.out.println(num);
+        for (int i = 0; i < number1; i++) {
+            System.out.println(" Enter the numbers (1) : ");
+            num1[i]= scanner.nextInt();
+            average = average + num1[i];
+         }
+        double avg = average / num1.length;
+        System.out.println("The average of the said array is: " + average / num1.length);
 
-            } else if( num > 0) {
-                System.out.println(num);
 
+        for (int i = 0; i < number1 ; i++) {
+            if (num1[i] > avg){
+                System.out.println(num1[i]);
             }
-
-
+        }
     }
 }
 
 
-//               Scanner scanner = new Scanner(System.in);
-//
-//        System.out.println(" Enter a num :");
-//        int num = scanner.nextInt();
-//
-//        for(int i = 0 ; i <= num.)
-//
-//
 
-//        Scanner scanner = new Scanner(System.in);
-//        char a;
-//        System.out.println("string");
-//        String s = scanner.next();
+        //3
+//        int [] num = {20,30,40};
+//        int max = num [0];
+//        for (int i = 0; i < 3; i++) {
+//            if (num[i] > max) {
+//               max = num [i];
+//            }
+//    }  System.out.println("Larger value between first and last element: " + max);
 //
 //
-//        for (int i = 0; i < s.charAt(0); i++) {
-//            char a = scanner.nextInt();
-//        }  System.out.println(a);
+//    }
+//      }
+
+        //4
+//        ArrayList<Integer> num = new ArrayList<>();
+//        num.add(20);
+//        num.add(30);
+//        num.add(40);
+//
+//        System.out.println(num);
+//
+//        Collections.swap(num,0,num.size()-1);
+//
+//        System.out.println("New array after swapping the first and last elements: "+ num);
+//    }
+//}
+//
+        //5
+//        ArrayList<Integer> num = new ArrayList<>();
+//        num.add(2); //2,3,40,1,5,9,4,10,7]
+//        num.add(3);
+//        num.add(40);
+//        num.add(1);
+//        num.add(5);
+//        num.add(9);
+//        num.add(4);
+//        num.add(10);
+//        num.add(7);
+//
+//        ArrayList<Integer> odd = new ArrayList<>();
+//        ArrayList<Integer> even = new ArrayList<>();
+//
+//
+//        for (Integer n : num) {
+//            if (n % 2 != 0) {
+//                odd.add(n);
+//            } else {
+//                even.add(n);
+//            }
+//        }
+//        odd.addAll(even);
+//        System.out.println(odd);
 //    }
 //}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        //6
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println(" how many array num1  :");
+//        int number1 = scanner.nextInt();
+//        int [] num1 = new int[number1];
+//
+//        for (int i = 0; i < number1; i++) {
+//            System.out.println(" Enter the numbers (1) : ");
+//            num1 [i]= scanner.nextInt();
+//        }
+//
+//        System.out.println(" how many array num2  :");
+//        int number2 = scanner.nextInt();
+//        int [] num2 = new int[number2];
+//
+//        for (int i = 0; i < number2; i++) {
+//            System.out.println(" Enter the numbers (2) : ");
+//            num2 [i]= scanner.nextInt();
+//        } if (Arrays.equals(num1, num2)){
+//            System.out.println(true);
+//        } else {
+//            System.out.println(false);
+//        }
+//
+//    }
+//}
 
 
 
