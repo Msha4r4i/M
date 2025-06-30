@@ -4,126 +4,115 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //1
-//        int[] array = {50, -20, 0, 30, 40, 60, 10};
-//            if (array.length >= 2 && array[0] == array[array.length - 1]) {
-//                System.out.println("true");
-//            }else {
-//                System.out.println("false");
-//        }
-//    }
-//}
 
-        //2
-        Scanner scanner = new Scanner(System.in);
-        System.out.println(" how many numbers of array   :");
-        int number1 = scanner.nextInt();
-
-        int [] num1 = new int[number1];
-        double average = 0;
-
-
-        for (int i = 0; i < number1; i++) {
-            System.out.println(" Enter the numbers (1) : ");
-            num1[i]= scanner.nextInt();
-            average = average + num1[i];
-         }
-        double avg = average / num1.length;
-        System.out.println("The average of the said array is: " + average / num1.length);
-
-
-        for (int i = 0; i < number1 ; i++) {
-            if (num1[i] > avg){
-                System.out.println(num1[i]);
-            }
-        }
-    }
-}
-
-
-
-        //3
-//        int [] num = {20,30,40};
-//        int max = num [0];
-//        for (int i = 0; i < 3; i++) {
-//            if (num[i] > max) {
-//               max = num [i];
-//            }
-//    }  System.out.println("Larger value between first and last element: " + max);
-//
-//
-//    }
-//      }
-
-        //4
-//        ArrayList<Integer> num = new ArrayList<>();
-//        num.add(20);
-//        num.add(30);
-//        num.add(40);
-//
-//        System.out.println(num);
-//
-//        Collections.swap(num,0,num.size()-1);
-//
-//        System.out.println("New array after swapping the first and last elements: "+ num);
-//    }
-//}
-//
-        //5
-//        ArrayList<Integer> num = new ArrayList<>();
-//        num.add(2); //2,3,40,1,5,9,4,10,7]
-//        num.add(3);
-//        num.add(40);
-//        num.add(1);
-//        num.add(5);
-//        num.add(9);
-//        num.add(4);
-//        num.add(10);
-//        num.add(7);
-//
-//        ArrayList<Integer> odd = new ArrayList<>();
-//        ArrayList<Integer> even = new ArrayList<>();
-//
-//
-//        for (Integer n : num) {
-//            if (n % 2 != 0) {
-//                odd.add(n);
-//            } else {
-//                even.add(n);
-//            }
-//        }
-//        odd.addAll(even);
-//        System.out.println(odd);
-//    }
-//}
-
-
-        //6
 //        Scanner scanner = new Scanner(System.in);
-//        System.out.println(" how many array num1  :");
-//        int number1 = scanner.nextInt();
-//        int [] num1 = new int[number1];
+//        System.out.println("Input the first number: ");
+//        int num1 = scanner.nextInt();
 //
-//        for (int i = 0; i < number1; i++) {
-//            System.out.println(" Enter the numbers (1) : ");
-//            num1 [i]= scanner.nextInt();
+//        System.out.println("Input the Second number :");
+//        int num2 = scanner.nextInt();
+//
+//        System.out.println("Input the third number :");
+//        int num3 = scanner.nextInt();
+//
+//       numbers(num1,num2,num3);
+
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Entar the number : ");
+//        int number = scanner.nextInt();
+//
+//
+//        String a = name(number);
+//        System.out.println(a);
+
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("A password must have at least eight characters");
+//        System.out.println("A password consists of only letters and digits");
+//        System.out.println(". A password must contain at least two digits ");
+//        System.out.println("Input a password (You are agreeing to the above Terms and Conditions ):");
+//        String pass = scanner.nextLine();
+//
+//
+//        System.out.println(password(pass));
+
+
+//    }
+
+//    public static void numbers (int num1, int num2, int num3) {
+//       int min = num1;
+//        if (num2 < min) {
+//            min = num2;
+//
+//        } else if (num3 < min) {
+//           min = num3;
+//        } System.out.println("The smallest value is :" + min);
+//
 //        }
-//
-//        System.out.println(" how many array num2  :");
-//        int number2 = scanner.nextInt();
-//        int [] num2 = new int[number2];
-//
-//        for (int i = 0; i < number2; i++) {
-//            System.out.println(" Enter the numbers (2) : ");
-//            num2 [i]= scanner.nextInt();
-//        } if (Arrays.equals(num1, num2)){
-//            System.out.println(true);
+//        public static String name (int num){
+//        if (num == 0){
+//            return "positive or zero";
+//        } else if (num < 0) {
+//            return "num is negative ";
 //        } else {
-//            System.out.println(false);
+//            return " number is positive ";
+//        }
+    }
+
+//    public static String password(String pass) {
+//        boolean lat = true;
+//        boolean dORch = true;
+//        boolean d2 = true;
+//        String fanil = " ";
+//
+//        int cawnt = 0;
+//
+//
+//        if (pass.length() >= 8) {
+//            lat = true;
+//        } else {
+//            lat = false;
 //        }
 //
+//        if (dORch == true) {
+//            for (int i = 0; i < pass.length(); i++) {
+//                if (Character.isLetterOrDigit(pass.charAt(i))) {
+//                    dORch = true;
+//                } else {
+//                    dORch = false;
+//                }
+//            }
+//        }
+//
+//        if (d2 == true) {
+//            for (int i = 0; i < pass.length(); i++) {
+//                if (Character.isDigit(pass.charAt(i))) {
+//                    cawnt++;
+//                }
+//            }
+//        }
+//        if (cawnt >= 2) {
+//            d2 = true;
+//        } else {
+//            d2 = false;
+//        }
+//        if (lat == true && dORch == true && d2==true){
+//          fanil = "Password is valid " + pass;
+//        }else {
+//            fanil = " password is not valid "+ pass;
+//        } return fanil;
 //    }
 //}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
